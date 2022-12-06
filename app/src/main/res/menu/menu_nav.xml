@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:title="@string/nav_home"
+            android:icon="@drawable/ic_home"/>
+
+        <item android:id="@+id/nav_donhang"
+            android:title="@string/nav_donhang"
+            android:icon="@drawable/ic_donhang"/>
+
+        <item android:id="@+id/nav_dangsp"
+            android:title="@string/nav_dangsp"
+            android:icon="@drawable/ic_dangsp"/>
+
+        <item android:id="@+id/nav_thongke"
+            android:title="@string/nav_thongke"
+            android:icon="@drawable/ic_thongke"/>
+
+    </group>
+
+    <item android:title="@string/nav_taikhoan">
+
+        <menu>
+
+            <item android:id="@+id/nav_dangnhap"
+                android:title="@string/nav_dangnhap"
+                android:icon="@drawable/login"/>
+
+            <item android:id="@+id/nav_dangky"
+                android:title="Đăng ký"
+                android:icon="@drawable/ic_dangky"/>
+
+            <item android:id="@+id/nav_thoat"
+                android:title="@string/nav_thoat"
+                android:icon="@drawable/ic_thoat"/>
+
+        </menu>
+
+    </item>
+
+
+</menu>
